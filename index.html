@@ -10,95 +10,228 @@
 
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
 
+  <!-- importing box-icons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
   <link rel="stylesheet" href="./css/main.css">
 
 </head>
 
 <body>
-  Features
-  Team
-  Sign In
+  <header class="header">
+    <div class="header__container container">
+      <div class="logo">
+        <img src="./images/logo.svg" alt="logo">
+      </div>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#" class="nav__link">Features</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Team</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Sign In</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-  All your files in one secure location, accessible anywhere.
+  <main>
+    <!-- ============== intro section ============== -->
+    <section class="intro">
+      <div class="intro__img">
+        <img src="./images/illustration-intro.png" alt="intro image">
+      </div>
+      <h1 class="intro__header">All your files in one secure location, accessible anywhere.</h1>
+      <p class="intro__details">
+        Fylo stores all your most important files in one secure location. Access them wherever
+        you need, share and collaborate with friends family, and co-workers.
+      </p>
+      <a href="#" class="btn">Get Started</a>
+    </section>
 
-  Fylo stores all your most important files in one secure location. Access them wherever
-  you need, share and collaborate with friends family, and co-workers.
+    <!-- ============== advantages section ============== -->
+    <section class="adventages">
+      <article class="advantage">
+        <div class="advantage__img">
+          <img src="./images/icon-access-anywhere.svg" alt="access anywhere">
+        </div>
+        <h3 class="advantage__header">Access your files, anywhere</h3>
+        <p class="advantage__details">
+          The ability to use a smartphone, tablet, or computer to access your account means your
+          files follow you everywhere.
+        </p>
+      </article>
 
-  Get Started
+      <article class="advantage">
+        <div class="advantage__img">
+          <img src="./images/icon-security.svg" alt="access anywhere">
+        </div>
+        <h3 class="advantage__header">Security you can trust</h3>
+        <p class="advantage__details">
+          2-factor authentication and user-controlled encryption are just a couple of the security
+          features we allow to help secure your files.
+        </p>
+      </article>
 
-  Access your files, anywhere
+      <article class="advantage">
+        <div class="advantage__img">
+          <img src="./images/icon-collaboration.svg" alt="access anywhere">
+        </div>
+        <h3 class="advantage__header">Real-time collaboration</h3>
+        <p class="advantage__details">
+          Securely share files and folders with friends, family and colleagues for live collaboration.
+          No email attachments required.
+        </p>
+      </article>
 
-  The ability to use a smartphone, tablet, or computer to access your account means your
-  files follow you everywhere.
+      <article class="advantage">
+        <div class="advantage__img">
+          <img src="./images/icon-any-file.svg" alt="access anywhere">
+        </div>
+        <h3 class="advantage__header">Share any type of file</h3>
+        <p class="advantage__details">
+          Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all
+          file types to be securely stored and shared.
+        </p>
+      </article>
+    </section>
 
-  Security you can trust
 
-  2-factor authentication and user-controlled encryption are just a couple of the security
-  features we allow to help secure your files.
+    <!-- ============== stay productive section ============== -->
+    <section class="stay-productive">
+      <div class="stay-productive__img">
+        <img src="./images/illustration-stay-productive.png" alt="stay productive">
+      </div>
+      <h2 class="stay-productive__header"> Stay productive wherever you are</h2>
+      <p class="stay-productive__details">
+        Never let location be an issue when accessing your files. Fylo has you covered for all of your file
+        storage needs.
+      </p>
+      <p class="stay-productive__details">
+        Securely share files and folders with friends, family and colleagues for live collaboration. No email
+        attachments required.
+      </p>
+      <a href="#" class="stay-productive__link">
+        See how Fylo works
+        <img src="./images/icon-arrow.svg" alt="">
+      </a>
+    </section>
 
-  Real-time collaboration
 
-  Securely share files and folders with friends, family and colleagues for live collaboration.
-  No email attachments required.
+    <!-- ============== testimonials section ============== -->
+    <section class="testimonials">
+      <article class="quote">
+        <p class="quote__context">
+          Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
+          become a well-oiled collaboration machine.
+        </p>
+        <div class="quote__profile">
+          <img src="./images/profile-1.jpg" alt="Satish Patel">
+        </div>
+        <h4 class="quote__name">Satish Patel</h4>
+        <h5 class="quote__role">Founder & CEO, Huddle</h5>
+      </article>
 
-  Store any type of file
+      <article class="quote">
+        <p class="quote__context">
+          Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
+          become a well-oiled collaboration machine.
+        </p>
+        <div class="quote__profile">
+          <img src="./images/profile-2.jpg" alt="Satish Patel">
+        </div>
+        <h4 class="quote__name">Bruce McKenzie</h4>
+        <h5 class="quote__role">Founder & CEO, Huddle</h5>
+      </article>
 
-  Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all
-  file types to be securely stored and shared.
+      <article class="quote">
+        <p class="quote__context">
+          Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
+          become a well-oiled collaboration machine.
+        </p>
+        <div class="quote__profile">
+          <img src="./images/profile-3.jpg" alt="Satish Patel">
+        </div>
+        <h4 class="quote__name">Iva Boyd</h4>
+        <h5 class="quote__role">Founder & CEO, Huddle</h5>
+      </article>
+    </section>
 
-  Stay productive, wherever you are
 
-  Never let location be an issue when accessing your files. Fylo has you covered for all of your file
-  storage needs.
+    <!-- ============== feedback section ============== -->
+    <section class="form">
+      <h2 class="form__header">Get early access today</h2>
+      <p class="form__details">
+        It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
+        questions, our support team would be happy to help you.
+      </p>
+      <form action="#">
+        <input type="email" name="email" id="email">
+        <button class="btn">Get Started For Free</button>
+      </form>
+    </section>
 
-  Securely share files and folders with friends, family and colleagues for live collaboration. No email
-  attachments required.
+  </main>
 
-  See how Fylo works
+  <!-- ============== footer ============== -->
+  <footer class="footer">
+    <div class="footer__logo">
+      <img src="./images/logo.svg" alt="Fylo logo">
+    </div>
 
-  Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
-  become a well-oiled collaboration machine.
+    <div class="footer__location">
+      <div class="location__img">
+        <img src="./images/icon-location.svg" alt="location">
+      </div>
+    </div>
 
-  Satish Patel
-  Founder & CEO, Huddle
+    <ul class="footer__list contacts__list">
+      <li class="contact">
+        <a href="#" class="contact__link">
+          <img src="contact__img" alt="phone">
+          +1-543-123-4567
+        </a>
+      </li>
+      <li class="contact">
+        <a href="" class="contact__link">
+          <img src="./images/icon-email.svg" alt="email">
+          example@fylo.com
+        </a>
+      </li>
+    </ul>
 
-  Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
-  become a well-oiled collaboration machine.
+    <ul class="footer__list additional-links__list">
+      <li class="additional-links__item">
+        <a href="#" class="additional-links__link">About Us</a>
+      </li>
+      <li class="additional-links__item">
+        <a href="#" class="additional-links__link">Jobs</a>
+      </li>
+      <li class="additional-links__item">
+        <a href="#" class="additional-links__link">Press</a>
+      </li>
+      <li class="additional-links__item">
+        <a href="#" class="additional-links__link">Blog</a>
+      </li>
+    </ul>
 
-  Bruce McKenzie
-  Founder & CEO, Huddle
+    <ul class="footer__list additional-links__list">
+      <li class="additional-links__item">
+        <a href="#" class="additional-links__link">Contact Us</a>
+      </li>
+      <li class="additional-links__item">
+        <a href="#" class="additional-links__link">Terms</a>
+      </li>
+      <li class="additional-links__item">
+        <a href="#" class="additional-links__link">Privacy</a>
+      </li>
+    </ul>
 
-  Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
-  become a well-oiled collaboration machine.
-
-  Iva Boyd
-  Founder & CEO, Huddle
-
-  Get early access today
-
-  It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
-  questions, our support team would be happy to help you.
-
-  Get Started For Free
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-  dolore magna aliqua
-
-  +1-543-123-4567
-  example@fylo.com
-
-  About Us
-  Jobs
-  Press
-  Blog
-
-  Contact Us
-  Terms
-  Privacy
-
-  <footer>
-
+    <ul class="footer__list socials__list">
+      <li class="socials__item"><a href="#" class="socials__link"><i class='bx bxl-facebook socials__icon'></i></a></li>
+      <li class="socials__item"><a href="#" class="socials__link"><i class='bx bxl-twitter socials__icon'></i></a></li>
+      <li class="socials__item"><a href="#" class="socials__link"><i class='bx bxl-instagram socials__icon'></i></a></li>
+    </ul>
   </footer>
+
 </body>
 
 </html>

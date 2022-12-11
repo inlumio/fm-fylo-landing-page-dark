@@ -23,3 +23,12 @@ html {
 body {
 	font-family: var(--ff-main);
 }
+
+.container {
+	width: 100%;
+	margin-inline: auto;
+}
+
+.btn {
+	
+}
